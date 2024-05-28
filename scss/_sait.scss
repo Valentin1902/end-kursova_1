@@ -293,6 +293,7 @@ body {
     height: 950px;
     margin-left: 255.5px;
 
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -307,6 +308,7 @@ body {
     .grid1 {
         grid-area: grid1;
 
+
         p {
             z-index: 2;
             position: absolute;
@@ -318,6 +320,7 @@ body {
         }
 
         .grid_women1 {
+            cursor: pointer;
             position: absolute;
             margin-left: -330px;
         }
@@ -327,7 +330,9 @@ body {
         grid-area: grid2;
         position: relative;
 
+
         .grid_women2 {
+            cursor: pointer;
             position: absolute;
             margin-left: -330px;
 
@@ -347,9 +352,11 @@ body {
         grid-area: grid3;
         position: relative;
 
+
         .grid_women3 {
             position: absolute;
             margin-left: -217px;
+            cursor: pointer;
         }
 
         p {
@@ -365,9 +372,11 @@ body {
         grid-area: grid4;
         position: relative;
 
+
         .grid_women3 {
             position: absolute;
             margin-left: -217px;
+            cursor: pointer;
         }
 
         p {
@@ -384,9 +393,11 @@ body {
         position: relative;
         margin-top: -95px;
 
+
         .grid_simulators {
             position: absolute;
             margin-left: -217px;
+            cursor: pointer;
         }
 
         p {
@@ -403,9 +414,11 @@ body {
         position: relative;
         margin-top: -95px;
 
+
         .grid_simulators {
             position: absolute;
             margin-left: -217px;
+            cursor: pointer;
         }
 
         p {
@@ -423,9 +436,11 @@ body {
         position: relative;
         margin-top: -179px;
 
+
         .grid_batute {
             position: absolute;
             margin-left: -271px;
+            cursor: pointer;
         }
 
         p {
@@ -443,9 +458,11 @@ body {
         position: relative;
         margin-top: -179px;
 
+
         .grid_batute {
             position: absolute;
             margin-left: -275px;
+            cursor: pointer;
         }
 
         p {
@@ -463,9 +480,11 @@ body {
         position: relative;
         margin-top: -179px;
 
+
         .grid_batute {
             position: absolute;
             margin-left: -271px;
+            cursor: pointer;
         }
 
         p {
@@ -485,7 +504,9 @@ body {
         position: relative;
         margin-top: -179px;
 
+
         .grid_batute {
+            cursor: pointer;
             position: absolute;
             margin-left: -275px;
         }
@@ -507,7 +528,7 @@ body {
     .main_grid_p {
         border: 1px solid #F53B49;
         color: #F53B49;
-        padding: 12px 8px 13px 24px;
+        padding: 12px 8px 13px 27px;
         width: 147px;
         font-size: 14px;
         font-weight: bold;
@@ -515,6 +536,316 @@ body {
         cursor: pointer;
         position: absolute;
         margin-top: 785px;
+    }
+
+}
+
+.pre_main_grid {
+    margin-left: 255px;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.two_grid {
+    font-family: "Inter", sans-serif;
+    width: 1418px;
+    height: 591px;
+    margin-left: 251px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas:
+        "pre_grid1 pre_grid1 pre_grid2 pre_grid3"
+        "pre_grid4 pre_grid5 pre_grid6 pre_grid7"
+    ;
+
+    .pre_grid1 {
+        grid-area: pre_grid1;
+        position: relative;
+        cursor: pointer;
+
+        .gridtwo_img {
+            position: absolute;
+            z-index: 1;
+        }
+
+        p {
+            position: absolute;
+            z-index: 2;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 29px;
+            padding-left: 33px;
+        }
+
+        .gridtwo_img2 {
+            position: absolute;
+            z-index: 3;
+            margin-left: 90px;
+
+        }
+    }
+
+    .pre_grid2 {
+        grid-area: pre_grid2;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+
+        .gridtwo_img3 {
+            position: absolute;
+            z-index: 2;
+        }
+
+        .gridtwo_img4 {
+            position: absolute;
+            z-index: 3;
+            margin-left: 54px;
+        }
+
+        p {
+            position: absolute;
+            z-index: 3;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            padding-top: 29px;
+            padding-left: 13px;
+        }
+
+    }
+
+    .pre_grid3 {
+        grid-area: pre_grid3;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+
+        .gridtwo_img3 {
+            position: absolute;
+            z-index: 2;
+        }
+
+        .gridtwo_img4 {
+            position: absolute;
+            z-index: 3;
+            margin-left: 54px;
+        }
+
+        p {
+            position: absolute;
+            z-index: 3;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            padding-top: 29px;
+            padding-left: 25px;
+        }
+    }
+
+    .pre_grid4 {
+        grid-area: pre_grid4;
+        position: relative;
+        z-index: 1;
+        cursor: pointer;
+
+        .gridtwo_img3 {
+            position: absolute;
+            z-index: 2;
+        }
+
+        .gridtwo_img4 {
+            position: absolute;
+            z-index: 3;
+            margin-left: 54px;
+        }
+
+        p {
+            position: absolute;
+            z-index: 3;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            padding-top: 29px;
+            padding-left: 25px;
+        }
+    }
+
+    .pre_grid5 {
+        cursor: pointer;
+        grid-area: pre_grid5;
+        position: relative;
+        z-index: 1;
+
+        .gridtwo_img3 {
+            position: absolute;
+            z-index: 2;
+        }
+
+        .gridtwo_img4 {
+            position: absolute;
+            z-index: 3;
+            margin-left: 54px;
+        }
+
+        p {
+            position: absolute;
+            z-index: 3;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            padding-top: 29px;
+            padding-left: 25px;
+        }
+    }
+
+    .pre_grid6 {
+        cursor: pointer;
+        grid-area: pre_grid6;
+        position: relative;
+        z-index: 1;
+
+        .gridtwo_img3 {
+            position: absolute;
+            z-index: 2;
+        }
+
+        .gridtwo_img4 {
+            position: absolute;
+            z-index: 3;
+            margin-left: 54px;
+        }
+
+        p {
+            position: absolute;
+            z-index: 3;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            padding-top: 29px;
+            padding-left: 25px;
+        }
+    }
+
+    .pre_grid7 {
+        cursor: pointer;
+        grid-area: pre_grid7;
+        position: relative;
+        z-index: 1;
+
+        .gridtwo_img3 {
+            position: absolute;
+            z-index: 2;
+        }
+
+        .gridtwo_img4 {
+            position: absolute;
+            z-index: 3;
+            margin-left: 54px;
+        }
+
+        p {
+            position: absolute;
+            z-index: 3;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+            padding-top: 29px;
+            padding-left: 25px;
+        }
+    }
+
+
+
+}
+
+.main_grid_p2 {
+    border: 1px solid #F53B49;
+    color: #F53B49;
+    padding: 12px 8px 13px 27px;
+    width: 147px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 248px;
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.pre_main_grid2_line {
+    margin-top: 37px;
+}
+
+.main_actions {
+    display: flex;
+    width: 100vw;
+    height: 35px;
+    margin-left: 255px;
+    font-family: "Inter", sans-serif;
+    align-items: center;
+    margin-top: 120px;
+
+    .p_action {
+        font-size: 25px;
+        font-weight: 800;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .p_New {
+        font-size: 20px;
+        color: grey;
+        font-weight: 500;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .p_recommend {
+        font-size: 20px;
+        color: grey;
+        font-weight: 500;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+}
+
+.main_grid3 {
+    width: 1310px;
+    height: 506px;
+    margin-left: 256px;
+    margin-top: 30px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    .main_grid3_div1 {
+        position: relative;
+        box-shadow:
+            0.3px 0.8px 3.6px rgba(0, 0, 0, 0.024),
+            0.8px 2.1px 10px rgba(0, 0, 0, 0.035),
+            1.8px 5.1px 24.1px rgba(0, 0, 0, 0.046),
+            6px 17px 80px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+
+    }
+
+    .main_grid3_img1 {
+        position: absolute;
+        margin-top: 25px;
+    }
+
+    .div_grid_icon3 {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 26px;
     }
 
 }
