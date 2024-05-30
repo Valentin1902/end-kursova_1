@@ -8,7 +8,7 @@
 
 body {
   width: 1920px;
-  height: 7500px;
+  height: 7371px;
 }
 
 .header {
@@ -1274,7 +1274,6 @@ body {
   margin-left: 251px;
   margin-top: 46px;
   font-family: "Inter", sans-serif;
-  position: absolute;
   color: #F53B49;
 }
 .pre_footer_btn:hover {
@@ -1285,7 +1284,185 @@ body {
 
 .footer {
   width: 1920px;
-  height: 620px;
+  height: 635px;
   background-color: #1A1A25;
-  margin-top: 168px;
+  margin-top: 78px;
+}
+.footer .footer_1_info {
+  display: flex;
+}
+.footer .footer_ul_div1 {
+  font-family: "Inter", sans-serif;
+  margin-left: 293px;
+  color: #858FA4;
+  margin-top: 105px;
+}
+.footer .footer_ul_div1 li {
+  margin-bottom: 12px;
+}
+.footer .footer_ul_div1 li:first-child {
+  color: white;
+  margin-bottom: 40px;
+}
+.footer .footer_ul_div1 li:last-child {
+  color: white;
+}
+.footer .footer_ul_div2 {
+  font-family: "Inter", sans-serif;
+  margin-left: 114px;
+  margin-top: 105px;
+}
+.footer .footer_ul_div2 .footer_ul2 {
+  color: #858FA4;
+}
+.footer .footer_ul_div2 .footer_ul2 li {
+  margin-bottom: 12px;
+}
+.footer .footer_ul_div2 .footer_ul2 li:first-child {
+  color: white;
+  margin-bottom: 40px;
+}
+.footer .footer_ul_div2 .footer_ul2 li:last-child {
+  color: white;
+}
+.footer .footer_ul_div2 .footer_ul2 span {
+  color: #858FA4;
+}
+.footer .footer_line {
+  margin-left: 292px;
+}
+.footer .footer_div2 {
+  position: relative;
+  width: 271px;
+  height: 337px;
+  font-family: "Inter", sans-serif;
+  margin-top: 105px;
+  margin-left: 190px;
+}
+.footer .footer_div2 input {
+  background-color: rgba(133, 143, 164, 0.1098039216);
+  padding: 14px 34px 14px 14px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
+.footer .footer_div2 input:hover {
+  border: 1px solid;
+}
+.footer .footer_div2 img {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -33px;
+}
+.footer .footer_div2 .footer_div2_p {
+  color: #858FA4;
+  margin-top: 50px;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+.footer .footer_div2 .footer_div2_p2 {
+  color: #858FA4;
+  font-size: 13px;
+}
+.footer .footer_div2 .footer_div2_p3 {
+  color: white;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-left: 4px;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+.footer .footer_div2 a {
+  margin-left: 4px;
+  font-size: 14px;
+  color: #858FA4;
+  border: none;
+  cursor: pointer;
+}
+.footer .footer_div2 .footer_div2_p4 {
+  color: white;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.footer .footer_div2 .footer_div2_p5 {
+  color: #4B7EE8;
+  font-size: 12px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.footer .footer_div2 .footer_div2_p6 {
+  color: #4B7EE8;
+  font-size: 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.footer .footer_2_info {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1920px;
+  height: 172px;
+  margin-left: 296px;
+  font-family: "Inter", sans-serif;
+}
+.footer .footer_2_info .footer_line {
+  margin-left: 289px;
+}
+.footer .footer_logo {
+  width: 287px;
+  height: 80px;
+  margin-top: 51px;
+}
+.footer .footer_logo .footer_logo_img {
+  margin-top: -10px;
+}
+.footer .footer_logo p {
+  color: #858FA4;
+  font-size: 14px;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+.footer .footer_info_2 {
+  align-items: center;
+  display: flex;
+  width: 1632px;
+}
+.footer .footer_info_2 .footer_f_i {
+  margin-left: 205px;
+}
+.footer .footer_info_2 .become_parnter {
+  color: white;
+  font-size: 14px;
+  margin-left: 148px;
+  border: 1px solid #384255;
+  background-color: #384255;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer .footer_info_2 .become_parnter2 {
+  color: #858FA4;
+  font-size: 14px;
+  margin-left: 30px;
+  border: 1px solid #384255;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.footer .footer_info_2 .footer_visa {
+  margin-left: 77px;
+}
+.footer .footer_info_2 .footer_mastercard {
+  margin-left: 30px;
+}
+.footer .footer_info_2 .footer_web {
+  margin-left: 30px;
+}
+.footer .footer_info_2 .footer_paypal {
+  margin-left: 30px;
 }/*# sourceMappingURL=main.css.map */

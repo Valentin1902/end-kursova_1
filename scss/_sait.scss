@@ -1,6 +1,6 @@
 body {
     width: 1920px;
-    height: 7500px;
+    height: 7371px;
 }
 
 .header {
@@ -1627,7 +1627,7 @@ body {
     margin-left: 251px;
     margin-top: 46px;
     font-family: "Inter", sans-serif;
-    position: absolute;
+
     color: #F53B49;
 
     &:hover {
@@ -1647,9 +1647,233 @@ body {
 }
 
 .footer {
+
     width: 1920px;
-    height: 620px;
+    height: 635px;
     background-color: #1A1A25;
 
-    margin-top: 168px;
+    margin-top: 78px;
+
+    .footer_1_info {
+        display: flex;
+    }
+
+    .footer_ul_div1 {
+        font-family: "Inter", sans-serif;
+        margin-left: 293px;
+        color: #858FA4;
+        margin-top: 105px;
+
+        li {
+            margin-bottom: 12px;
+
+            &:first-child {
+                color: white;
+                margin-bottom: 40px;
+            }
+
+            &:last-child {
+                color: white;
+            }
+        }
+    }
+
+    .footer_ul_div2 {
+        font-family: "Inter", sans-serif;
+        margin-left: 114px;
+        margin-top: 105px;
+
+        .footer_ul2 {
+            color: #858FA4;
+
+            li {
+                margin-bottom: 12px;
+
+                &:first-child {
+                    color: white;
+                    margin-bottom: 40px;
+                }
+
+                &:last-child {
+                    color: white;
+                }
+
+
+            }
+
+            span {
+                color: #858FA4;
+            }
+        }
+    }
+
+    .footer_line {
+        margin-left: 292px;
+    }
+
+    .footer_div2 {
+        position: relative;
+        width: 271px;
+        height: 337px;
+        font-family: "Inter", sans-serif;
+        margin-top: 105px;
+        margin-left: 190px;
+
+        input {
+            background-color: #858fa41c;
+            padding: 14px 34px 14px 14px;
+            outline: none;
+            border: none;
+            border-radius: 7px;
+            color: white;
+            cursor: pointer;
+
+            &:hover {
+                border: 1px solid;
+            }
+        }
+
+        img {
+            position: absolute;
+            margin-top: 12px;
+            margin-left: -33px;
+        }
+
+        .footer_div2_p {
+            color: #858FA4;
+            margin-top: 50px;
+            margin-bottom: 8px;
+            font-size: 13px;
+
+        }
+
+        .footer_div2_p2 {
+            color: #858FA4;
+            font-size: 13px;
+
+
+        }
+
+        .footer_div2_p3 {
+            color: white;
+            font-size: 14px;
+            margin-top: 8px;
+            margin-left: 4px;
+            margin-bottom: 23px;
+            cursor: pointer;
+        }
+
+        a {
+            margin-left: 4px;
+            font-size: 14px;
+            color: #858FA4;
+            border: none;
+            cursor: pointer;
+        }
+
+        .footer_div2_p4 {
+            color: white;
+            margin-top: 10px;
+            font-size: 14px;
+            margin-left: 4px;
+            cursor: pointer;
+        }
+
+        .footer_div2_p5 {
+            color: #4B7EE8;
+            font-size: 12px;
+            margin-top: 40px;
+            cursor: pointer;
+        }
+
+        .footer_div2_p6 {
+            color: #4B7EE8;
+            font-size: 12px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+    }
+
+    .footer_2_info {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1920px;
+        height: 172px;
+        margin-left: 296px;
+        font-family: "Inter", sans-serif;
+
+        .footer_line {
+
+            margin-left: 289px;
+        }
+    }
+
+    .footer_logo {
+        width: 287px;
+        height: 80px;
+
+        margin-top: 51px;
+
+        .footer_logo_img {
+            margin-top: -10px;
+        }
+
+        p {
+            color: #858FA4;
+            font-size: 14px;
+            margin-top: 17px;
+            margin-left: 5px;
+        }
+    }
+
+    .footer_info_2 {
+        align-items: center;
+        display: flex;
+        width: 1632px;
+
+        .footer_f_i {
+            margin-left: 205px;
+        }
+
+        .become_parnter {
+            color: white;
+            font-size: 14px;
+            margin-left: 148px;
+            border: 1px solid #384255;
+            background-color: #384255;
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .become_parnter2 {
+            color: #858FA4;
+            font-size: 14px;
+            margin-left: 30px;
+            border: 1px solid #384255;
+
+            padding: 10px;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .footer_visa {
+            margin-left: 77px;
+        }
+
+        .footer_mastercard {
+            margin-left: 30px;
+        }
+
+        .footer_web {
+            margin-left: 30px;
+        }
+
+        .footer_paypal {
+            margin-left: 30px;
+        }
+    }
+
 }
