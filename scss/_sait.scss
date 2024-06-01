@@ -2004,6 +2004,8 @@ body {
 
 }
 
+
+
 .media_search {
     display: none;
 }
@@ -2014,4 +2016,70 @@ body {
 
 .media_header_div2_ul2 {
     display: none;
+}
+
+@media (min-width: 700px) {
+    .iphone_media {
+        display: none;
+    }
+
+    .header_iph {
+        display: none;
+    }
+
+    .iph_main {
+        display: none;
+    }
+
+    .iph_for_home {
+        display: none;
+    }
+
+    .iph_grid1 {
+        display: none;
+    }
+
+    .iph_button {
+        display: none;
+    }
+
+    .iph_for_home1 {
+        display: none;
+    }
+
+    .iph_conteiner {
+        display: none;
+    }
+
+    .iph_button {
+        display: none;
+    }
+
+    .iph_actions {
+        display: none;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .iph_adaptiv_btn {
+        display: none;
+    }
+
+    .ideas {
+        display: none;
+    }
+
+    .help_div_obg {
+        display: none;
+    }
+
+    .parnters_div_glav {
+        display: none;
+    }
+
+    .iphone_footer {
+        display: none;
+    }
 }
